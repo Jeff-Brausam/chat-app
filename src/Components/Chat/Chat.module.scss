@@ -1,0 +1,93 @@
+.ChatRoom {
+  min-height: 100%;
+}
+
+.ChatLeft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+}
+
+.ChatRight {
+  position: fixed;
+  top: 0;
+  left: 20%;
+  width: 80%;
+  height: 100%;
+}
+
+.Chat {
+  height: 95vh;
+  overflow: scroll;
+  background: #f7f7f7;
+}
+
+.ChatInput {
+  position: fixed;
+  bottom: 0; 
+  right: 0;
+  width: 80%;
+    
+  form { 
+  background: #000; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+  
+  input {
+    border: 1px solid black;
+    padding: 1rem; 
+    width: 85%; 
+    border-radius: 5px; 
+
+    &:focus {
+      border: 1px solid black;
+      outline: none;
+    }
+  }
+  
+  button {
+    color: #fff;
+    width: 14%; 
+    background:#09f;
+    border: none;
+    border-radius: 5px; 
+    padding: 1rem;
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+
+    &:hover{
+      cursor: pointer;
+      background: #0af;
+    }
+  }
+}
+
+@media (max-width: 499px) {
+  .ChatLeft {
+    width: 0%;
+  }
+  .ChatRight {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .ChatInput {
+    position: fixed;
+    bottom: 0; 
+    right: 0;
+    width: 100%;
+  }
+}
+ 
+
+
+
+
