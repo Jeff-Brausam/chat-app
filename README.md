@@ -6,6 +6,6 @@ One room for all users to communicate in.
 
 The backend of this application uses express and node.js.
 
-To test locally..NPM install, then in the react APP switch the endpoint to http://localhost:3000.
+To test locally..NPM install, then in the react APP.js switch the const socketURL = "http://localhost:4001";
  
 
