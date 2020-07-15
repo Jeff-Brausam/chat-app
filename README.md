@@ -3,5 +3,4 @@ A basic chat application built in React, paired with Socket.io for websocket com
 One room for all users to communicate in.
 The backend of this application uses express and node.js
  
-## Try it here
-Live Demo: https://jeff-chat-app.netlify.app/
+
